@@ -1,4 +1,29 @@
 {
+    "avular": {
+        "name": "Avular",
+        "tx_900":{
+            "SX127x": {
+                "product_name": "Avular 900MHz TX SX127x",
+                "lua_name": "Avular 900 TX SX127x",
+                "layout_file": "Avular 900 TX SX127x.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX",
+                "prior_target_name": "AVULAR_900_TX_SX127x"
+            }
+        },
+        "rx_900":{
+            "SX127x": {
+                "product_name": "Avular 900MHz RX SX127x",
+                "lua_name": "Avular 900 RX SX127x",
+                "layout_file": "Avular 900 RX SX127x.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_RX",
+                "prior_target_name": "AVULAR_900_RX_SX127x"
+            }
+        }
+    },
     "axis": {
         "name": "Axisflying",
         "tx_2400": {
