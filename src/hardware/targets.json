@@ -1,4 +1,29 @@
 {
+    "avular": {
+        "name": "Avular",
+        "tx_2400":{
+            "SX128x": {
+                "product_name": "Avular 2.4GHz TX SX128x",
+                "lua_name": "Avular 2400 TX SX128x",
+                "layout_file": "Avular 2400 TX SX128x.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_2400_TX",
+                "prior_target_name": "AVULAR_2400_TX_SX128x"
+            }
+        },
+        "rx_2400":{
+            "SX128x": {
+                "product_name": "Avular 2.4GHz RX SX128x",
+                "lua_name": "Avular 2400 RX SX128x",
+                "layout_file": "Avular 2400 RX SX128x.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_2400_RX",
+                "prior_target_name": "AVULAR_2400_RX_SX128x"
+            }
+        }
+    },
     "axis": {
         "name": "Axisflying",
         "tx_2400": {
