@@ -1,4 +1,29 @@
 {
+    "avular": {
+        "name": "Avular",
+        "tx_900":{
+            "blaster": {
+                "product_name": "Avular Blaster 900 TX",
+                "lua_name": "Avular 900TX",
+                "layout_file": "Avular Blaster 900 TX.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX",
+                "prior_target_name": "Avular_Blaster_900_TX"
+            }
+        },
+        "rx_900":{
+            "blaster": {
+                "product_name": "Avular Blaster 900 RX",
+                "lua_name": "Avular 900RX",
+                "layout_file": "Avular Blaster 900 RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_RX",
+                "prior_target_name": "Avular_Blaster_900_RX"
+            }
+        }
+    },
     "axis": {
         "name": "Axisflying",
         "tx_2400": {
